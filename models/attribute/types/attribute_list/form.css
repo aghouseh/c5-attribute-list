@@ -1,0 +1,54 @@
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form {}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form fieldset {
+	padding: 10px 0;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form ul {
+	list-style: none outside none;
+	margin: 0;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form ul li {
+	padding: 2px 4px;
+	margin-bottom: 4px;
+	border: 1px solid #DDD;
+	border-radius: 2px;
+	cursor: move;
+	cursor: hand;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form ul li:hover {
+	background: #EEE;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form ul li.assigned {
+	background: #E9F4EC;
+	border: 1px solid #C7E7CF;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form ul li.assigned:hover {
+	background: #DAEEDF;
+	border: 1px solid #ADD7B8;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form ul li.assigned {
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form ul li i {
+	opacity: 0.2;
+	vertical-align: middle;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form label {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form label .ccm-input-checkbox,
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form label .ak-name {
+	vertical-align: middle;
+	color: #666;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form label .ccm-input-checkbox {
+	margin: 0;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form label .ccm-input-checkbox:checked + .ak-name {
+	color: #000;
+}
+.ccm-ui #ccm-properties-custom-tab .attribute-list-form .ak-type {
+	float: right;
+	text-transform: uppercase;
+	margin: 4px 0;
+	font-size: 10px;
+}

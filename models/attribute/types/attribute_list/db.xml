@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="atAttributeListSettings">
+		<field name="akID" type="I" size="10">
+			<KEY/>
+			<UNSIGNED/>
+		</field> 
+		<field name="attribute_category_id" type="I" size="10"/>
+	</table>
+	<table name="atAttributeList">
+		<field name="alID" type="I" size="10">
+			<KEY/>
+			<UNSIGNED/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="avID" type="I" size="10"/> 
+		<field name="attribute_key_id" type="I" size="10"/>
+		<field name="display_order" type="I" size="10"/>
+	</table>
+</schema>
